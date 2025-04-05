@@ -1,0 +1,3 @@
+-> operator logika 
+   - operator ini digunakan untuk menentukan logika dari beberapa expressiy yang akan digabungkan 
+   - &&(and), ||(or), !(not)
