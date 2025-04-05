@@ -1,3 +1,8 @@
 -> operator logika 
-   - operator ini digunakan untuk menentukan logika dari beberapa expressiy yang akan digabungkan 
+   - operator ini digunakan untuk menentukan logika dari beberapa expresi yang akan digabungkan 
    - &&(and), ||(or), !(not)
+   - !: untuk membalikkan hasil boolean 
+   - operator string (+): jika operandnya string akan menjadi operator pengabung string 
+   - operator typeof: untuk mengetahui tipe data apa yang dimasukkan kedalamnya typeof(operand)/unary: satu operand
+     - mengetahui tipe data apa dari sebuah nilai 
+   - operator kondisional: operator ternary, dimana butuh tiga operand didalamnya, operator ini digunakan untuk melakukan sebuah pengecakan pada sebuah kondisi dan menentukan nilai yang dihasilkan ketika nilainya bernilai true atau false (kondisi) ? benar : salah     
