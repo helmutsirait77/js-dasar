@@ -5,4 +5,128 @@
    - operator string (+): jika operandnya string akan menjadi operator pengabung string 
    - operator typeof: untuk mengetahui tipe data apa yang dimasukkan kedalamnya typeof(operand)/unary: satu operand
      - mengetahui tipe data apa dari sebuah nilai 
-   - operator kondisional: operator ternary, dimana butuh tiga operand didalamnya, operator ini digunakan untuk melakukan sebuah pengecakan pada sebuah kondisi dan menentukan nilai yang dihasilkan ketika nilainya bernilai true atau false (kondisi) ? benar : salah     
+   - operator kondisional: operator ternary, dimana butuh tiga operand didalamnya, operator ini digunakan untuk melakukan sebuah pengecakan pada sebuah kondisi dan menentukan nilai yang dihasilkan ketika nilainya bernilai true atau false (kondisi) ? benar : salah    
+
+  
+  - Operator dalam javascript adalah sebuah simbol yang digunakan untuk melakukan sebuah operasi 
+   - aritmatika 
+       +, -, *, /, % = modulo / modulos / sisa bagi 
+   - penugasan / assigment
+       = : digunakan ketika bekerja dengan variable 
+       +=
+       -=
+       *=
+       /=
+       %=
+       nilai yang sebelum disimpan dalam variable gak akan hilang tapi akan dilakukan operasi terlebih dahulu 
+   - perbandingan / comparison 
+      - untuk membandingakan dua buah operand 
+         == sama dengan 
+         != tidak sama dengan 
+         === strict/operator identitas   sama dengan 
+         !== srict tidak sama dengan 
+         > lebih besar sama dengan 
+       menghasilkan sebuah nilai boolean true atau false     
+   - logika 
+   - string 
+     - disebut operator binary 
+
+   
+
+   - kondisional -> ternary 
+   - typeof -> unary
+
+  - operator dapat terbagi berdasarkan operandnya    
+   - binary operator yang membutuhkan dua operand 
+     - operand1 operator operand2
+   - unary membutuhkan 1 operand 
+     - operator operand ayau operand operator
+    - ternary operator yang membutuhkan 3 buah operand  
+
+ - popup box / dialog box 
+  - sebuah window kecil pada browser yang dapat dimunculkan sebagai alat interaksi yang digunakan agar user dapat berdialog dengan halaman web 
+  - ada tiga popupbox
+     - alert 
+     - prompt 
+     - confirm 
+  - alert box 
+     - memberikan pesan sederhana ke user
+  - prompt
+     - window kecil berupa inputan 
+     - mengembalikan nilai apapun yang diisi didalam inputannya 
+  - confirm 
+    - digunakan untuk meminta konfirmasi dari user 
+    - paling simple untuk mendelete data 
+    - mengembalikan nilai boolean 
+
+- Variable 
+  - sebuah tempat / wadah yang memiliki nama, yang digunakan untuk menyimpan nilai 
+  - deklarasi, inisialisai, assigment 
+  
+  - deklarasi: mendaftarkan variable ke dalam lingkup yang sesuai
+      keyword untuk mendeklarasikan variabel
+       - var 
+       - let 
+       - const 
+
+       var <nama variable>
+       var ga boleh pake spasi
+       var 1gaboleh
+       var ini_juga_boleh;
+
+       var namaVariabelPanjang // camel case 
+       keyword & reserve word 
+
+       - shorthand : sintaks untuk penyingkat penulisan variable 
+
+       - variable scope / lingkup variable 
+         - pengunaan variable secara tepad
+         - pemahaman function dan object
+      
+  - inisialisasi: menyediakan memori untuk variable 
+  - assigment: menetapkan nilai yang spesipik ke dalam variable 
+
+  - Control Flow / alur kendali 
+  - didalam pemprograman ada normal flow / alur normal 
+  - apabila program memiliki lebih dari satu statement, maka statement tersebut akan dieksekusi dari atas ke bawah atau dari kiri ke kanan 
+  - Pengulangan 
+    - loop / iteration 
+    - sebuah konsep untuk mengerjakan atau mengeksekusi sebuah statement yang sama lebih dari satu kali 
+    - for 
+    - while 
+    - do while 
+  - Pengkondisian / Percabangan
+    - sebuah keadaan dimana program kita bisa memilih untuk mengeksekusi statement yang berbeda berdasarkan kondisi yang diberikan 
+    - if 
+    - if.. else
+    - if.. else if.. else
+    - switch   
+
+- pengulangan 
+- While
+  - infinite loop / looping forever 
+  - dihentikan oleh user 
+  - dihentikan oleh program 
+  - nilai awal, kondisi terminasi, increment atau decrement 
+
+- Tabel penulusuran / trace table / dry-run test  
+  - memahami cara kerja program
+  - diulang terus sampai kondisi bernilai false
+  - tuliskan variable yang kemungkinan nilainya berubah pada saat pengulangan 
+
+- For 
+  - for sebuah keyword lain yang dapat digunakan untuk melakukan pengulangan
+
+- Pengkondisian 
+  - keyword if else
+  - keyword else if / kondisi lain 
+
+- untuk menyelesaikan sebuah persoalan jawabanya gak cuman satu, bisa aja kemungkinan banyak, dilihat mana yang lebih efektif daripada yang lain 
+
+- switch 
+  - tidak memiliki kondisi yang banyak, tapi satu 
+     
+
+
+
+
