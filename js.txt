@@ -124,7 +124,9 @@
 - untuk menyelesaikan sebuah persoalan jawabanya gak cuman satu, bisa aja kemungkinan banyak, dilihat mana yang lebih efektif daripada yang lain 
 
 - switch 
+  - pengunaanya mirip if dan else
   - tidak memiliki kondisi yang banyak, tapi satu 
+  - ekspressiny menghasilkan sebuah nilai 
      
 
 
