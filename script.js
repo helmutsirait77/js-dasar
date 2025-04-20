@@ -45,20 +45,108 @@
 // }
 
 // switch 
-var item = prompt('masukkan nama makanan / minuman : \n (cth: nasi, daging, susu, hamburger, softdrink)');
+// var item = prompt('masukkan nama makanan / minuman : \n (cth: nasi, daging, susu, hamburger, softdrink)');
 
-switch ( item ) {
-	  case 'nasi':
-     case 'daging' :
-     case 'susu' : 
-        alert('makanan / minuman SEHAT');
-        break;
-      case 'hamburger' :
-      case 'softdrink' :
-        alert('makanan / minuman TIDAK SEHAT');
-        break;       		
-	   default:
-		 alert('anda memasukkan nama makanan / minuman yang salah'); 
-		break;
+// switch ( item ) {
+// 	  case 'nasi':
+//      case 'daging' :
+//      case 'susu' : 
+//         alert('makanan / minuman SEHAT');
+//         break;
+//       case 'hamburger' :
+//       case 'softdrink' :
+//         alert('makanan / minuman TIDAK SEHAT');
+//         break;       		
+// 	   default:
+// 		 alert('anda memasukkan nama makanan / minuman yang salah'); 
+// 		break;
+// }
+
+// console.log('*****');
+
+// **********
+// **********
+// **********
+// **********
+// **********
+// **********
+// **********
+// var s = '';
+// for( var i = 0; i < 7; i++ ) {
+//      for( var j = 0; j < 10; j++ ) {
+//          s += '*';  
+//      }
+//     s += '\n';
+// }
+// console.log(s);
+
+// *
+// **
+// ***
+// ****
+// var s = '';
+// for( var i = 0; i < 15; i++ ) {
+//      for( var j = 0; j <= i; j++ ) {
+//          s += '*';  
+//      }
+//     s += '\n';
+// }
+// console.log(s);
+
+// *****
+// ****
+// ***
+// **
+// *
+// var s = '';
+// for( var i = 5; i > 0; i-- ) {
+//      for( var j = 0; j < i; j++ ) {
+//          s += '*';  
+//      }
+//     s += '\n';
+// }
+// console.log(s);
+
+// *****
+//  ****
+//   ***
+//    **
+//     *
+// var s = '';
+// for( var i = 0; i < 5; i++ ) {
+//      for( var j = 0; j <= i; j++ ) {
+//          s += ' ';  
+//      } 
+//      for( var j = 5; j > i; j-- ) {
+//          s += '*';  
+//      }
+//     s += '\n';
+// }
+// console.log(s);
+
+// *
+// **
+// ***
+// ****
+// *****
+// ****
+// ***
+// **
+// *
+
+var s = '';
+for( var i = 0; i <= 12; i++ ) {
+   if(i === 6 || i < 6) {
+        for( var j = 0; j <= i; j++ ){
+                  s += '*';
+        }
+   } 
+   else {
+         for( var l = i - 2; l < 11; l++ ) {
+               s += '*';
+         }
+   }
+  s += '\n';
 }
 
+console.log(s);

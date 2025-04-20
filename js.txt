@@ -127,7 +127,10 @@
   - pengunaanya mirip if dan else
   - tidak memiliki kondisi yang banyak, tapi satu 
   - ekspressiny menghasilkan sebuah nilai 
-     
+- Pengulangan dan Pengkondisian bersarang 
+ -   
+ 
+- DOM : digunakan oleh javascript agar berinteraksi dengan elemen - elemen HTML yang dibuat       
 
 
 
