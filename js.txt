@@ -1,3 +1,184 @@
+# Konsep - konsep dasar pemprograman 
+  -> variable
+  -> tipe data
+  -> pengkondisian
+  -> pengulangan
+  -> object 
+  -> function 
+  -> array 
+
+ # konsep yang paling dasar 
+  -> Program
+  -> Pemprograman 
+  -> Bahasa pemprograman
+
+  -> cara nulis program
+  -> disimpan dimana programnya
+  -> bagaimana menjalankan program itu sendiri 
+
+   -> Belajar pemprograman banyak manfaatnya 
+     -> Belajar teliti : pada saat menuliskan program tidak boleh salah satu karakter 
+     -> disiplin : tiap - tiap bahasa pemprogramam punya aturan yang berbeda-beda dalam menuliskan kode mereka   
+     -> berfikir abstrak : menyembunyikan kerumitan atau kompleksitas pada saat memandang sebuah masalah 
+     -> Mengubah komputer menjadi alat yang powerfull untuk menyelesaikan sebuah masalah 
+     -> Membentuk pola pikir komputasional 
+         -> dekomposisi 
+         -> pengenalan pola 
+         -> generalisasi 
+         -> algorithma 
+ 
+ -> apa itu pemprograman
+   -> program adalah kumpulan / serangkaian instruksi yang diberikan ke komputer 
+   -> program adalah urutan instruksi terstruktur, yang dirancang agar komputer dapat berperilaku sesuai dengan ketentuan, dengan tujuan untuk menyelesaikan sebuah pekerjaan 
+   -> Intsruksi untuk komputer 
+     -> Memberi perintah pada Komputer, melalui bahasa pemprograman tertentu
+     -> memecah tugas menjadi instruksi sederhana 
+   -> Instruksi sederhana 
+     -> melakukan operasi matematika
+     -> menampilkan tulisan ke layar 
+     -> mengubah ukuran, posisi, atau warna sebuah pixel 
+   -> Kenapa sederhana 
+     -> perilaku dari komputer 
+       -> komputer tidak begitu pintar 
+       -> tapi penurut 
+       -> mengerjakan instruksi yang diberikan 
+       -> tidak kenal lelah 
+    -> berikanlah instruksi yang benar dan masuk akal 
+    -> statement: perintah untuk komputer dalam bahasa pemprograman tertentu 
+    -> aturan dalam bahasa pemprograman yang digunakan 
+
+    -> apa itu bahasa pemprograman ?  
+     - kenapa banyak ? 
+       - komputer atau cpu tidak bisa memahami cpu, bahasa yang dipahami oleh komputer dinamakan bahasa mesin
+       - bahasa assembliy bahasa yang mendekati bahasa mesin / bahasa tingkat rendah / low level language 
+      - javascript / Bahasa tingkat tinggi / high level language
+      - source code / statement 
+        - untuk menulis program ada tiga hal 
+         - Bagaimana menulis source code 
+           - nulisnya dimana 
+           - menggunakan aplikasi apa 
+           - gimana nulisnya 
+         - Bagaimana source code dikonversi ke bahasa mesin 
+         - Bagaimana mengesekusi source code kita 
+
+ 1. Menulis source code 
+   - Bahasa pemrograman ditulis menggunakan text sederhana / plain text 
+   - IDE 
+2. Bagaimana source code di terjemahkan ke dalam machine  code         
+   - compiler & interpreter 
+    - interpreter: berjalan realtime pada saat menerjemahkan source codenya baris perbaris 
+   - Hybrid menggabungkan kelebihanya compiler dan kelebihannya compiler 
+
+ - Kenapa javascript ? 
+   - Gratis 
+     - Tidak perlu membeli software / licence numbernya 
+   - Tidak perlu instalasi 
+      - karena tiap - tiap browser sudah ada javascript didalamnya / engine/ interpreter javascript
+   -  high-level language 
+   -  scripting language : bahasa pemprograman yang tertanam di dalam program yang lebih besar 
+   - untyed: 
+      - dua kategori bahasa pemprograman bagaimana mengelola tipe data didalamnya, untyped dan typed 
+      - javascript bahasa yang untyped / dynamicallt typed 
+        - membuat variable di dalam bahasa pemprograman yang untyped bisa diisi oleh tipe data yang berbeda sedangkan yang typed tidak  
+   - interpreted 
+     - bahasa pemprograman yang harus dijalankan menggunakan interpreted 
+      mpjme - funfunfunction 
+     - framework & libraries 
+
+ javascript bisa apa ? 
+ - Client-side Web  develoment 
+  - Native Javscript / Vanilla javascript 
+  - JQOERY
+  - Anggular JS, React, Ember, Backbobe 
+
+- server -side Develoment 
+  - NodeJS 
+  - Express JS 
+
+ - Browser extension 
+  - Desktop Application 
+  - Mobile App Develoment 
+  - iot & Robotics 
+  - JSON skema  format data
+
+  - douglas crockford 
+
+  - Lingkungan Pengembangan / Develoment Environment 
+    - sebuah sistem / tools dimana nantinya menuliskan program 
+    - ada dua cara agar dapat berinteraksi dengan interpreter javascript di dalamnya 
+      - console : dev tools dari tiap tiap browser 
+- Nilai & Tipe data pada Javascript 
+  - membaca, memodifikasi, membuat dan menghapus data 
+   - semua data tersimpan kedalam serangkain bit 
+   - bit/binary digit adalah satuan terkecil dari data yang ada di dalam komputer / bilangan biner nilainya 0 dan 1
+   - bagaimana merepresentasikan angka 23 
+   - semua data direpresentasikan ke dalam bilangan biner  
+
+   - komputer membagi bit bit tesebut ke dalam beberapa potongan potongan tersebut di sebut values/nilai 
+   - nilai tersebut memiliki peran yang berbeda ini disebut tipe data 
+   - didalam javscript ada enam tipe data 
+      - number 
+      - string 
+      - boolean
+      - object 
+      - function 
+      - undefined 
+ 
+ -  tipe data string        
+ - Tipe data string dalam javscript digunakan untuk merepresentasikan data tekstual / plaintext
+ - membungkus data atau nilai menggunakan tanda kutip '' atau ""
+ - escape character, berfungsi untuk menampilkan sebuah karakter yang diinterpretasikan berbeda dalam sebuah bahasa pemprograman 
+ - unicode untuk menampilkan simbol 
+ - concatenation konkatenasi / operator penganbung dua atau lebih string 
+ - sebuah fungsi .length : menghitung panjang dari sebuah string 
+
+ - tipe data angka / number 
+  - di dalam javascript  tidak ada integer / bilangan bulat yang ada hanya floating point 
+  - ukuran angka yang bisa ditampungh oleh javascript adalah 64bit 
+     - menyimpaan angka sebesar 2^64 bit = 18 x 10^18 = 18 X 1000 000 000 000 000 000
+     - angka tersebut tidak bisa dipakai semua, ada beberapa penanda untuk menampung angka angka tertentu,
+     - ada beberapa jenis angka yang bisa disimpan didalam javascript 
+       - angaka tanpa desimal 
+         - 10, 1500, 123456
+         - akurat sampai 15
+     - angka dengan desimal 
+       - 3.14 0.5, 100.00
+     - perhitungan dalam pecahan, hasilnya tidak terlalu akurat 
+     - menyimpan bilangan yang sangat besar atau kecil dengan menggunakan eksponen 
+        - 123e5
+        - 123e-5
+     - bilangan negatif
+      - 1 bit digunakan untuk penanda jika bilangan negatif 
+      - 11 bit digunakan untuk eksponen 
+      - sisanya 52bit digunakan untuk angka sebenarnya termasuk untuk menyimpan titik untuk pecahan 
+
+     - jangan pernah mengawali angka dengan 0, akan dianggap sebagai oktal / basis 8 0 - 7, 022 
+     bilangan desimal basis 10 0 - 9 
+     0xff akan dianggap sebagai bilangan hexadesimal 
+      - bilangan basis enam belas 0 - 9 A - F  
+    - angka spesial 
+       infinity 
+       -infinity 
+       NaN(Not a Number)     
+   - Boolean 
+     - sebuah tipe data yang digunakan untuk merepresentasikan  logika true atau false 
+     - biasanya digunakan pada statement pengkondisian, untuk menentukan aksi yang berbeda dan mengatur alur kendali program
+     - boolean memiliki dua buah nilai true atau false 
+
+    - nilai nilai yang ada pada  javascript menyimpan true atau false didalamnya disebut dengan nilai truethy atau falsy 
+
+    - undefined : adalah sebuah tipe yang dihasilkan ketika mendeklarasikan sebuah variable tapi belum mengisikan nilainya  
+    - null : adalah nilai kosong yang bisa diberikan pada sebuah variable                     
+
+- Menulis Javascript 
+ - menulis javascript secara internal atau eksternal 
+ - langsung menuliskan syntax javascript di tag script document website 
+ - eksternal: file terpisah untuk menuliskan javascript 
+ - dom: bekerja dengan elemen HTML di dalam body
+ - javascript menuliskan sesuatu di dalam console, menggunakan fungsi console.log
+   - nulis sesuatu di file javscript lalu ditampilkan kedalam console 
+ - console untuk melihat kesalahan    
+
 -> operator logika 
    - operator ini digunakan untuk menentukan logika dari beberapa expresi yang akan digabungkan 
    - &&(and), ||(or), !(not)
@@ -130,7 +311,167 @@
 - Pengulangan dan Pengkondisian bersarang 
  -   
  
-- DOM : digunakan oleh javascript agar berinteraksi dengan elemen - elemen HTML yang dibuat       
+- DOM : digunakan oleh javascript agar berinteraksi dengan elemen - elemen HTML yang dibuat  
+
+*** Function ***
+- cara buat 
+- cara pakai 
+- seperti apa perilakunya 
+
+- function : adalah kunci utama pada  javascript yang membuat javascript sangat powerfull 'Douglas crockford'
+- Method 
+- Class 
+- Constructor 
+- Module 
+
+- function sub-program / sub-routine yang dapat 'dipanggil' di bagian lain pada program, program didalam program lainya 
+- Merupakan struktur dasar pembentuk dari javascript / fundamental building block 
+- disebut juga sebagai prosedur( kumpulan statement untuk melakukan tugas atau menghitung sebuah nilai )
+- untuk dapat menggunakannya, kita harus 'membuat' terlebih dahulu function tersebut, lalu memanggilnya 
+- Termasuk kedalam First-Class Object 
+
+
+- Kenapa Function ?
+ - Reusability : pengunaan kode yang sudah dibuat (DRY : Do not Repeat Yourself) 
+ - Dekomposisi / Abstraksi : untuk menyembunyikan kompleksitas yang dibuat, karena di pecah - pecah bagian dari programnya 
+ - Modularitas : untuk memudahkan untuk menelusuri kesalahan pada saat prosess debuging 
+
+ Kategori function 
+ - Built-in Function : Fungsi yang sudah disediakan / 'dibuat' oleh javascript 
+                       - Kita tinggal 'Memanggil-nya saja'
+   - alert()
+   - confirm()
+   - prompt()                    
+
+ - User-Defined Function : dibuat sendiri
+    - Menggunakan keyword function 
+    - Nama Function (optional)
+    - Parameter/Argument 
+       - disimpan()
+       - boleh ada atau tidak, jika ada boleh lebih dari satu 
+       - dipisahkan dari koma(,)
+    - function body, 'dibungkus' dengan {} 
+    - Dapat mengembalikan nilai (return value) atau tidak 
+
+    - cara buat nya ada dua 
+     - dengan deklarasi / function declaration 
+         - 
+     - Dengan expressi / function expression 
+            - disimpan kedalam sebuah variabel 
+
+     - Memanggil / menjalankan function 
+       - dengan cara memanggil nama alert(jumlahDuaBilangan(1.2));
+ - User-Defined Function 
+ - Function declaration vs Function expression 
+ - parameter / argument 
+ - return value 
+ - scope : lingkup dari function 
+ - REfactoring : lebih efektif lagi menuliskan kode program kita 
+ - Hoisting : bagaimana perilaku interpreter javascript membaca baris - baris program kita 
+ - Closure : function expression yang lebih kompleks lagi
+ - Recursion: bagaimana sebuah function memanggil dirinya sendiri    
+
+
+ - ketika bekerja dengan function memiliki sebuah input atau nilai / material / bahan baku, function akan melakukan sesuatu terhadap bahan baku / material tadi, sehingga akan menghasilkan nilai baru 
+ - function yang baik hanya mengerjakan satu hal saja secara spesipik 
+ - Blok kode yang dibuat untuk melakukan tugas spesipik 
+ - dapat dipanggil berulang kali 
+ - Memudahkan melakukan penulusuran 
+ - Reusability : penggunaan ulang dari kode program 
+ 
+ - membuat function 
+   - keyword function, untuk memberitahu interpreter javascript bahwa kita akan mulai menulis sebuah fungsi 
+   - bungkus function dengan kurung kurawal, untuk menandai awal dan akhir sebuah fungsi 
+   - beri nama function yang menjelaskan apa yang akan dilakukan 
+   - selalu tuliskan kurung untuk menyimpan parameter/ argumen/ bahan baku untuk nantinya digunakan di dalam function 
+   - parameter / argumen, data yang kirim dari luar saat pemanggilan function, untuk digunakan di dalam function 
+   - anggap sebagai variable khusus untuk function 
+   - parameter boleh ada boleh tidak 
+   - jika tidak ada kosongkan, tapi kurung  harus tetap ditulis 
+   - jika ada, boleh sebanyak mungkin sesuai kebutuhan 
+   - sebuah function biasanya menggembalikan sebuah nilai 
+   - menggunakan keyword return, lalu diikuti dengan nilai kembalianya 
+   - kegunaanya adalah untuk memberitahu interpreter bahwa kita telah selesai mengerjakan sesuatu dan 'inilah' hasilnya 
+   - setelah sampai keyword return, function akan berhenti berjalan
+
+- Parameter & Argument
+ - parameter : variable yang tulis didalam kurung pada saat function dibuat, digunakan untuk menampung nilai yang dikirimkan saat function dipanggil 
+
+ - argument 
+  - nilai yang dikirimkan ke parameter saat fungsi dipanggil 
+
+- bagaimana jika parameter dan argumentnya tidak sesuai ?
+ - jika parameter lebih sedikit dari argument, maka argument kelebihanya akan diabaikan : untuk javascript 
+
+ - jika parameter lebih banyak dari argument, maka parameter kelebihanya akan diisi dengan nilai undefined 
+
+ - arguments: sebuah variable khusus yang namanya arguments, array yang berisi nilai yang dikirimkan saat fungsi di panggil 
+ - sudo variable: variable yang gak keliatan sebetulnya ada 
+ - bentuknya array 
+
+
+ - Refactoring 
+  - penulisan kode program menjadi lebih efisien merupakan salah satu bagian dari sebuah konsep yang dinamakan dengan refactoring  
+  - refactoring: sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah fungsionalitas dari program itu sendiri 
+
+  - Readability: kemudahan dalam membaca program 
+    -  karena progam yang baik, tidak hanya mudah dibaca oleh pembuatnya tapi juga dengan orang lain, dilakukan secara kolaboratif dalam sebuah tim 
+  - DRY( Don't Repeat Yourself)
+     - pengunaan variable yang berlebihan 
+     - efisiensi function 
+  - Testability : penulisan kode agar mudah saat dilakukan pengujian 
+  - Performance :  bagaimana menulis kode yang dapat meningkatkan performance dari programnya 
+    -  cth: menggunakan looping dengan baik 
+           - tipe data yang tepat untuk sebuah nilai 
+           - pengalokasian memori yang efektif  dalam bahasa pemprograman tertentu 
+  - Maintainablity: program dengan mudah dikelola atau dikembangkan 
+  
+  - Scope / lingkup variable 
+   - bagaimana sebuah variable dapat diakses dalam program 
+ - didalam bahasa pemprograman ada dua jenis scope 
+  - block scope dan function scope 
+    - block scope : c dan java 
+- javascript menngunakan konsep function scope 
+  
+
+- Rekursif / rekursi / rescursior 
+ - sebuah fungsi yang memanggil dirinya sendiri 
+ - fungsi dijalankan ketika mempunyai sebuah input yang dimasukkan ke dalam fungsi atau function dan menghasilkan sebuah output 
+ - fungsi harus berakhir dan menghasillkan sebuh nilai 
+ - base case: kondisi akhir dari rekursif yang menghasilkan sebuh nilai 
+ - semua looping bisa dibuat rekursif, tapi tidak sebaliknya  
+
+ - Menggantikan looping 
+ - Fibonacci 
+ - pencarian dan penulusuran pada struktur data list dan tree 
+ - bahasa pemprograman yang tidak memiliki pengulangan 
+
+- function Declaration & Expression 
+ - function declaration 
+    - lebih fleksibel( dapat ditulis dimanapun )
+      - deklarasi function sebelum atau sesudah pemanggilan function, panggil dulu baru dideklarasikan atau sebaliknya deklarasikan dulu baru dipanggil 
+      - terjadi karena di dalam javascrip ada konsep yang namanya 'hoisting'
+      - deklasi sebuah function pasti disimpan terlebih dahulu di dalama memori 
+      - mudah dipahami untuk pemula  
+ - function expression disimpan kedalam variable
+   - harus didefinisikan terlebih dahulu sebelum dipanggil 
+   - lebih powerfull
+    - sebagai closure
+    - sebagai argumen untuk functio  yang lain 
+    - IIFE ( immediately Invoked Function Expression )   
+    - lebih lanjut dan javasript modern 
+
+
+  
+
+
+
+
+
+
+
+
+
 
 
 

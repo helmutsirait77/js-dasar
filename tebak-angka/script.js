@@ -11,19 +11,19 @@ while( ulang > 0 ) {
 	if( angkaTebakan === comp ) {
 		  hasil = 'anda berhasil,  angka yang dicari ' + comp;
 		  alert(hasil);
-		  break;
 	} else if( angkaTebakan > comp ) { 
 		  var ulang1 = ulang - 1;
 		  // hasil = 'terlalu TINGGI!, ayo main masih ada ' +ulang1;
-		  hasil = (ulang1 === 0) ? 'terlalu TINGGI\n Kesempatan anda habis\nangka yang dicari adalah '+comp : 'terlalu TINGGI!, ayo main masih ada ' + ulang1 +' Kesempatan';       
+		  hasil = (ulang1 === 0) ? 'Kesempatan anda habis\nangka yang dicari adalah '+comp : 'terlalu TINGGI!, ayo main masih ada ' + ulang1 +' Kesempatan';       
 		  alert(hasil);
 	} else if( angkaTebakan < comp ) {
 		   var ulang1 = ulang - 1;
 		   // hasil = 'terlalu  RENDAH!,  ayo main masih ada ' +ulang1;
-		   hasil = (ulang1 === 0) ? 'terlalu TINGGI\n Kesempatan anda habis\nangka yang dicari adalah '+comp : 'terlalu RENDAH!, ayo main masih ada ' + ulang1+' Kesempatan';  
+		   hasil = (ulang1 === 0) ? 'Kesempatan anda habis\nangka yang dicari adalah '+comp : 'terlalu RENDAH!, ayo main masih ada ' + ulang1+' Kesempatan';  
 		   alert(hasil);
 	} else {
-		   hasil = 'Masukkan angka hanya 0 - 10';
+		    var ulang2 = ulang - 1;
+		   hasil = 'yang anda masukan harus angka bukan huruf\n ayp main masih ada ' + ulang2 +' Kesempatan';
 		   alert(hasil);
 	}
 ulang--;	

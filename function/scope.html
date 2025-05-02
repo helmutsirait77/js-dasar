@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scope </title>
+</head>
+<body>
+	<script>
+	      	 // global scope / window scope 
+		     // variable yang dapat digunakan dimanapun didalam program 
+		     // object window object paling luar di dalam browser 
+		     // 
+		     // var a = 1;
+            
+            // "use strict"
+		     var a = 1;
+            function test(a) {
+              	 // name conflict, dua variable dengan nama yang sama scopenya berbeda  
+                 // console.log(window.a);
+             console.log(a);
+                 
+            }
+            
+             test(2);
+              
+             
+
+
+
+		  // var i = 2;
+
+		  // if( i % 2 == 0) {
+          //      var genap = true;
+		  // }
+
+		  // if( genap ) {
+		  // 	  console.log('genap');
+		  // }
+		  
+	</script>
+</body>
+</html>

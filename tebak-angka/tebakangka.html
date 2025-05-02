@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tebak Angka </title>
+</head>
+<body>
+	 <script>
+	 	  alert('Tebak angka dari 0 - 10\nKamu punya 3 kesempatan');
+	 	  for( var kesempatan = 3; kesempatan > 0; kesempatan-- ) {
+	 	  // menangkap pilihan player
+	      var player = Number(prompt('Masukkan Angka tebakan'));
+	 	  // generate angka 0 - 10
+	 	  var comp = Math.floor(Math.random() * 11);
+          // menentukan rules
+          function tebakAngka(comp, player) {
+                  var hasil;
+                  var ulang;
+                  if( player === comp ) {
+                  	     hasil = 'anda berhasil,  angka yang dicari ' + comp;
+		                 kesempatan = 0;
+                  }else if( player > comp ) {
+                  	       ulang =  kesempatan - 1;
+                  	       hasil = (ulang === 0) ? 'Kesempatan anda habis\nangka yang dicari adalah '+ comp : 'terlalu TINGGI!, ayo main masih ada '+ ulang +' Kesempatan'    
+                  } else if( player < comp ) {
+                  	      ulang = kesempatan - 1; 
+                  	      hasil = (ulang === 0) ? 'Kesempatan anda habis\nangka yang dicari adalah '+ comp : 'terlalu RENDAH!, ayo main masih ada ' + ulang +' Kesempatan';  
+                  } else {
+                  	    ulang = kesempatan - 1; 
+                  	    hasil = 'yang anda masukan harus angka bukan huruf\n ayp main masih ada ' + ulang +' Kesempatan';
+                  }
+                  return alert(hasil);
+          } 
+          tebakAngka(comp, player);
+       }
+	 </script>
+</body>
+</html>
