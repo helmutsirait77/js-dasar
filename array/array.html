@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Array </title>
+</head>
+<body>
+	<script>
+		 // Manipulasi array 
+
+		// 1. Menambah isi array 
+		var arr = [];
+		// arr[0] = 'Hello';
+		// arr[1] = 'World';
+        // arr[6] = 'dani';
+		// console.log(arr)
+
+		// 2. Menghapus isi array 
+		// var arr = ['Hello', 'World', 'dani'];
+		// arr[1] = undefined;
+		// console.log(arr)
+
+		// 3. Menampilkan isi array 
+		// var arr = ['Hello', 'Wolrd'];
+		// for( var i = 0; i < arr.length; i++ ) {
+		// 	   console.log('Mahassiswa '+ (i + 1) +' : '+arr[i]);
+		// }
+
+		// Method pada array 
+		// 1. join 
+		// var arr = ['Hello', 'World', 'Dani'];
+		// console.log(arr.join(' - '));
+
+		// 2. push & pop 
+		// push : menambah / mendorong / memasukkan elemen array diakhir arraynya 
+		// pop: menghilangkan elemen terakhir dari sebuh array 
+		// var arr = ['Hello', 'World', 'Dani'];
+		// arr.push('Rani', 'rendi');
+		// arr.pop();
+		// arr.pop();
+		// console.log(arr.join(' - '));
+
+		// 3. unshift & shift 
+		// bekerja untuk elemen pertama pada array 
+		// unshift : menambah elemen baru di awal arraynya
+		// shift : menghilangkan elemen pertama 
+         arr.shift();
+		// arr.unshift('rani');
+		// console.log(arr.join(' - '));
+
+
+		// shift & pop benar - benar menghilangkan elemen 
+        
+        // 4. splice : menyisipkan elemen array ditengah - tengah 
+		// var arr = ['Hello', 'World', 'Dani'];
+		// splice(indexAwal, mauDihapusBerapa(opt), elemenBaru(opt), elemenBaru1, ...);
+		// arr.splice(0, 2, 'Sandi', 'Roy');
+		// console.log(arr.join(' - '));
+       
+       // 5. slice: mengiris sebuah array menjadi array yang baru
+       //  slice(indexAwal, indexAkhir);
+         // index awal terbawa di array yang baru, tapi index akhir tidak
+		// var arr = ['Hello', 'World', 'Dani', 'Fitri', 'Roy'];
+		// var arr2 = arr.slice(1, 4);
+		// console.log(arr.join(' - '));
+		// console.log(arr2.join(' - '));
+
+
+        //6. foreach 
+        // var angka = [1, 2, 3, 4, 5, 6, 7, 8];
+        // var nama = ['Dani', 'Rani', 'Doddy'];
+        // for(var i = 0; i < angka.length; i++) {
+        // 	  console.log(angka[i]);
+        // } 
+       // var cetak = function(e) {
+       // 	    console.log(e);
+       // }
+       // angka.forEach(function(e) {
+       // 	    console.log(e);
+       // });
+
+        // nama.forEach(function (e, i) {
+        //      console.log('Mahasiswa ke- '+ ( i + 1) +' adalah : ' + e );
+        // })
+         
+         // 7. map : mengembalikan array 
+         // var angka = [1, 2, 5, 3, 6, 8, 4]; 
+         // var angka2 = angka.map(function(e) {
+         //      return e * 2;	
+         // }); 
+
+         // console.log(angka2.join(' - '));
+
+         // 8. sort 
+         // var angka = [1, 2, 5, 10, 6, 8, 20]; 
+         //  console.log(angka.join(' - '));
+         //  angka.sort(function (a, b) {
+         //  	 return a-b;
+         //  });
+         //  console.log(angka.join(' - '));
+
+         // 9. filter 
+         // untuk mencari nilai pada arrray dan mengembalikan  dalam bentuk array 
+         var angka = [1, 2, 3, 10, 5, 20, 3, 6, 8, 4];
+         // var angka2 = angka.find(function(x) {
+         //     return x > 5;
+         // }); 
+
+         var angka2 = angka.filter(function(x) {
+             return x > 5;
+         }); 
+
+         // console.log(angka2.join(' - '));
+         console.log(angka2);
+	</script>
+</body>
+</html>

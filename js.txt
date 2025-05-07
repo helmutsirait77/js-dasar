@@ -457,10 +457,71 @@
    - harus didefinisikan terlebih dahulu sebelum dipanggil 
    - lebih powerfull
     - sebagai closure
-    - sebagai argumen untuk functio  yang lain 
+    - sebagai argumen untuk function  yang lain 
     - IIFE ( immediately Invoked Function Expression )   
     - lebih lanjut dan javasript modern 
 
+- ARRAY
+ - array sebagai tipe data, array sebagai struktur data 
+   - susunan sistematis dari objek - objek yang serupa 
+   - di dalam bahasa pemprograman dunia programingg atau ilmu komputer 
+     - tipe data yang digunakan untuk mendeskripsikan kumpulan elemen ( nilai atau variable  ), yang tiap - tiap elemen memiliki index 
+ - array ?
+   - untuk mempermudah pengelolaan nilai / value / data 
+    - penulusuran dan pencarian 
+   - Menajemen memomri   
+ - array : variabel jamak, yang mempunyai banyak elemen dan diacu dengan nama yang sama 
+ - Kumpulan pasangan key dan nilai / key and value pair 
+ - key adalah index pada array dengan tipe integer yang dimulai dari 0
+ - array pada javascript bertipe Object 
+ - array pada javascript memiliki fungsi / method length untuk menghitung jumlah elemen di dalamnya 
+ - elemen / value pada array boleh memiliki tipe data yang berbeda 
+ - elemen pada array boleh beda tipe  
+ - key and value pair - membuat array 
+ - array multidimensi / array bersarang 
+   - array bertipe object 
+
+ - Mengelola isi array 
+   - menambah dan menghapus elemen pada array 
+ - Menelusuri array dengan looping 
+ - Method pada array
+ - studi kasus 
+
+
+ - Manipulasi array 
+   -  menambah elemen pada array 
+   - menghapus elemen pada array 
+   - menampilkan seluruh isi array 
+
+- Method pada javascript khusus untuk array 
+- length : untuk jumlah elemen pada array 
+- join : yang mengabungkan seluruh isi array dan mengubahnya menjadi string 
+- push, pop, shift, unshift : digunakan untuk menambah atau menghapus elemen array  
+  - push : mendorong masuk 
+  - pop : memecahkan atau menghilangkan 
+  - shift: mengeluarkan, mengeser keluar 
+  - unshift : mengeser ke dalam 
+  - slice: mengiris array 
+     - mengambil beberap bagian pada array untuk menjadi array yang baru 
+  - splice : menyambung atau menambal, menyisipkan sebuah elemen ditengah 
+  
+- foreach & map 
+ - dua method ini digunakan untuk melakukan looping pada  array     
+-  map : mengembalikan array sedangkan foreach tidak 
+
+- sort : mengurutkan isi array 
+- filter & find: dua method ini digunakan untuk mencari elemen pada array 
+   - find mengembalikan satu nilai 
+      - nilai pertama yang ditemukan 
+   - filter mengembalikan banyak nilai 
+ 
+ - repersentasi tempat duduk didalam angkot 
+ - functionalitas utama 
+   - penumpang naik 
+   - penumpang turun 
+ - test case 
+ - pseudo code / algorrithma 
+              
 
   
 
