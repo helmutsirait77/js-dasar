@@ -538,6 +538,19 @@
  - Prototype 
  - Pewarisan / inherintance    
 
+- Membuat Object 
+  - Object Literal 
+  - Function Declaration 
+  - Constructor Function ( keyword new )
+  - Object.create()   
+
+- Konsep this 
+ - context atau sebuah keadaan yang berbeda tergantung cara membuat dan memanggil functionnya 
+ - Object window adalah object global 
+ - kalau dibuat di object global this adalah window   
+ - 
+
+
               
 
   
