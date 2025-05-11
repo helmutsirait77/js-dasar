@@ -521,6 +521,23 @@
    - penumpang turun 
  - test case 
  - pseudo code / algorrithma 
+
+- Object 
+ - di dalam javascript hampir semua elemennya terbuat dari object 
+ - array adalah tipe data yang namany object 
+ - array "kumpulan nilai, yang memiliki index"
+ - object "kumpulan nilai, yang memiliki nama"
+
+ - kenapa object 
+
+ - Membuat Object 
+  - Literal 
+  - Contructor 
+ - Memanggil / Mengekseskusi Object 
+ - Keyword This 
+ - Prototype 
+ - Pewarisan / inherintance    
+
               
 
   
