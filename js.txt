@@ -550,6 +550,15 @@
  - kalau dibuat di object global this adalah window   
  - 
 
+- basic knowledge 
+ - HTML and CSS
+ - Text Editors 
+ - Web Browsers 
+ - The different versions of javascript 
+
+ page 29
+
+  
 
               
 

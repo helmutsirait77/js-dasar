@@ -134,19 +134,22 @@
 // **
 // *
 
-var s = '';
-for( var i = 0; i <= 12; i++ ) {
-   if(i === 6 || i < 6) {
-        for( var j = 0; j <= i; j++ ){
-                  s += '*';
-        }
-   } 
-   else {
-         for( var l = i - 2; l < 11; l++ ) {
-               s += '*';
-         }
-   }
-  s += '\n';
-}
+// var s = '';
+// for( var i = 0; i <= 12; i++ ) {
+//    if(i === 6 || i < 6) {
+//         for( var j = 0; j <= i; j++ ){
+//                   s += '*';
+//         }
+//    } 
+//    else {
+//          for( var l = i - 2; l < 11; l++ ) {
+//                s += '*';
+//          }
+//    }
+//   s += '\n';
+// }
 
-console.log(s);
+// console.log(s);
+
+document.write("Yes! I am now a JavaSript coder"); // writes out my opinion 
+

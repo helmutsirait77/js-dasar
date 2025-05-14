@@ -1,0 +1,10 @@
+- kelola data angkot menggunakan object 
+ - Sopir 
+ - Trayek 
+ - kas 
+ - penumpang 
+   - penumpang naik 
+   - penumpang turun 
+
+ 
+    
