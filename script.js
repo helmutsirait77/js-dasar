@@ -151,5 +151,55 @@
 
 // console.log(s);
 
-document.write("Yes! I am now a JavaSript coder"); // writes out my opinion 
+// document.write("Yes! I am now a JavaSript coder"); // writes out my opini
+// document.write("Hello\on \Word");
+
+// function hitung() {
+// 	  console.log(arguments);
+// }
+
+// hitung(1, 3, 4, 5);
+
+// document.write('<a href=\"https://goggle.com\">www.goggle.com</a>');
+// var chipscost = 2.59;
+// var istrue = false;
+// var nada = null;
+// document.write('Jhon said, \" This project is fun \"');
+
+
+// var mycar = "Corvette";
+// document.write("I like driving my "+ mycar);
+// var headingtext = '<span style=\" color:red \">I am so colorful today!</span>';
+
+// var linktag = "<a href=\"https://goggle.com\">Link to a site</a>"
+// document.writeln(linktag);
+
+// var myintro = "Hello, welcome to my javascript page!"
+// var begineffect = "<em>";
+// var endeffect = "</em>";
+// var beginpara = "<p>";
+// var endpara = "</p>";
+
+// document.write(headingtext);
+// document.write("<br>");
+// document.write(begineffect + myintro + endeffect );
+// document.write("<p>Hello World</p>")
+
+
+var myheading = "This is My Web Page";
+var linktag = "<a href=\"https:// googgle.com\">Web Site link</a>";
+var sometext = "This text can be affected by other statements"
+var begineffect = "<strong>";
+var endeffect = "</strong>";
+var newsection = "<br />";
+
+document.write(myheading);
+document.write(newsection);
+document.write(begineffect);
+document.write(sometext);
+document.write(endeffect);
+document.write(newsection);
+document.write(linktag);
+document.write(newsection);
+document.write(sometext);
 

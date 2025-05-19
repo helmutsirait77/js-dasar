@@ -556,7 +556,27 @@
  - Web Browsers 
  - The different versions of javascript 
 
- page 29
+ - JavaScript 
+  - December 4, 1995
+  - LiveScript -> JavaScript 
+  - Object Based
+  - Client Side 
+  - Scripting Language '
+
+- Variabel 
+  - memberikan arti pada  sebuah nilai
+  - untuk melihat kode ketiak error
+  - javascript's naming rules 
+    - untuk mempermudah dan mengingatnya 
+  - escape character and special character  
+  page 60 : function 
+    
+    
+ 
+
+  
+
+
 
   
 
